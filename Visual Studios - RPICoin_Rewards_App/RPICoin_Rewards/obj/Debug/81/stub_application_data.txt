@@ -1,0 +1,2 @@
+android.app.Application
+RPICoin_Rewards.RPICoin_Rewards

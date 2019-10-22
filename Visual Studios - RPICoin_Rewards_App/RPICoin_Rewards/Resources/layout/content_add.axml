@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10px"
+	android:id="@+id/linearLayoutAdd">
+	<TextView
+		android:text="Public Address"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textViewPub" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayoutLine">
+		<ImageButton
+			android:src="@android:drawable/ic_menu_camera"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:scaleType="fitCenter"
+			android:id="@+id/imageButtonQR" />
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textSize="13sp"
+			android:id="@+id/editTextPub" />
+	</LinearLayout>
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="75px"
+		android:id="@+id/space1" />
+	<TextView
+		android:text="Address Nickname"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textViewNick" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editTextNick" />
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="25px"
+		android:id="@+id/space2" />
+	<CheckBox
+		android:text="Masternode enabled"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/checkBoxMN" />
+	<CheckBox
+		android:text="Staking enabled"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/checkBoxStake" />
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/relativeLayoutLine">
+		<Button
+			android:text="Back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/buttonBack" />
+		<Button
+			android:text="Save"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/buttonSave" />
+	</RelativeLayout>
+
+
+	</LinearLayout>
