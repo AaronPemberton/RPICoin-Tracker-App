@@ -6,7 +6,7 @@ RPICoin website: https://rpicoin.com
 
 Packaged and signed apk can be installed.
 
-Visual Studios Solution also provide if you prefer to build the apk yourself.
+Visual Studios Solution also provided if you prefer to build the apk yourself.
 
 Android 5.0 and up.
 
